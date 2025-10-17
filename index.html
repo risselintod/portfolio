@@ -1,422 +1,1131 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title> Web Portfolio | Rissel Intod </title>
+    <!-- Primary Meta Tags -->
+    <title>Rissel Intod - Expert Full-Stack Web & Mobile Developer | MERN Stack Specialist</title>
+    <meta name="title" content="Rissel Intod - Expert Full-Stack Web & Mobile Developer | MERN Stack Specialist">
+    <meta name="description"
+        content="Professional Full-Stack Developer with 3+ years experience. Expert in React, Node.js, React Native, and MERN stack. Transform your ideas into digital reality with high-converting websites and mobile apps.">
+    <meta name="keywords"
+        content="Full-Stack Developer, React Developer, Node.js, React Native, MERN Stack, Web Development, Mobile App Development, JavaScript, TypeScript, Portfolio">
+    <meta name="author" content="Rissel Intod">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://risselintod.com/">
+    <meta property="og:title" content="Rissel Intod - Expert Full-Stack Web & Mobile Developer">
+    <meta property="og:description"
+        content="Professional Full-Stack Developer specializing in React, Node.js, and React Native. Transform your ideas into digital reality.">
+    <meta property="og:image" content="https://risselintod.com/assets/images/og-image.jpg">
+    <meta property="og:site_name" content="Rissel Intod Portfolio">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://risselintod.com/">
+    <meta property="twitter:title" content="Rissel Intod - Expert Full-Stack Web & Mobile Developer">
+    <meta property="twitter:description"
+        content="Professional Full-Stack Developer specializing in React, Node.js, and React Native. Transform your ideas into digital reality.">
+    <meta property="twitter:image" content="https://risselintod.com/assets/images/og-image.jpg">
+    <meta property="twitter:creator" content="@engr_rissel">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#007bff">
+    <meta name="msapplication-TileColor" content="#007bff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Rissel Intod">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://risselintod.com/">
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- Devicon -->
-    <link rel="stylesheet"
-        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Italianno|Acme" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- fav icon -->
-    <link rel="icon" type="images/gif/png" href="assets/images/r.png">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/r.png">
+    <link rel="apple-touch-icon" href="assets/images/r.png">
 
-    <!-- Animate css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
 
-    <!-- bootstrap css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
-    <!-- external css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Rissel Intod",
+      "jobTitle": "Full-Stack Web & Mobile Developer",
+      "description": "Professional Full-Stack Developer with 3+ years experience. Expert in React, Node.js, React Native, and MERN stack.",
+      "url": "https://risselintod.com",
+      "image": "https://risselintod.com/assets/images/gradpic.jpg",
+      "sameAs": [
+        "https://www.linkedin.com/in/risselintod/",
+        "https://github.com/risselintod",
+        "https://www.facebook.com/risselTV",
+        "https://www.instagram.com/engr_rissel",
+        "https://www.youtube.com/@engr_rissel"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Taguig City",
+        "addressCountry": "Philippines"
+      },
+      "knowsAbout": [
+        "React",
+        "Node.js",
+        "React Native",
+        "JavaScript",
+        "MongoDB",
+        "Express.js",
+        "Web Development",
+        "Mobile App Development"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Full-Stack Developer",
+        "occupationLocation": {
+          "@type": "City",
+          "name": "Manila, Philippines"
+        }
+      }
+    }
+    </script>
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top" role="navigation"
+        aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home" aria-label="Rissel Intod - Home">
+                <img src="assets/images/r.png" alt="Rissel Intod Logo" width="40" height="40" class="me-2"
+                    loading="eager">
+                <span class="brand-text">Rissel Intod</span>
+            </a>
 
-    <div id="welcome" class="container-fluid flex-center position-ref">
-        <div id="name">
-            <div class="container">
-                <b>
-                    <h1 class="animated fadeInDown" id="welcometext"><b id="R"> R </b> I S S E L &nbsp <b id="I"> I </b>
-                        N T O D </h1>
-                </b>
-                <p class="animated fadeInUp" id="fullstack"> FULL-STACK WEB DEVELOPER </p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" role="menubar">
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="#home" role="menuitem" aria-current="page">
+                            <i class="fas fa-home me-1" aria-hidden="true"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="#about" role="menuitem">
+                            <i class="fas fa-user me-1" aria-hidden="true"></i>About
+                        </a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="#services" role="menuitem">
+                            <i class="fas fa-cogs me-1" aria-hidden="true"></i>Services
+                        </a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="#skills" role="menuitem">
+                            <i class="fas fa-code me-1" aria-hidden="true"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="#projects" role="menuitem">
+                            <i class="fas fa-briefcase me-1" aria-hidden="true"></i>Projects
+                        </a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link" href="#contact" role="menuitem">
+                            <i class="fas fa-envelope me-1" aria-hidden="true"></i>Contact
+                        </a>
+                    </li>
+                </ul>
             </div>
+        </div>
+    </nav>
 
-            <div class="down btn mt-2 fadeOutUp">
-                <a href="#home">
-                    <p id="learn" class="text-light animated zoomIn">Learn More<br><i class="fas fa-chevron-down"></i>
-                    </p>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-lg-10 mx-auto text-center">
+                    <div class="hero-content">
+                        <!-- Professional Badge -->
+                        <div class="hero-badge animate-fade-in">
+                            <i class="fas fa-star me-2"></i>
+                            <span>3+ Years Experience</span>
+                        </div>
+
+                        <h1 class="hero-title animate-fade-in-delay">
+                            Transform Your Ideas Into
+                            <span class="text-gradient">Digital Reality</span>
+                        </h1>
+                        <h2 class="hero-subtitle animate-fade-in-delay-2">
+                            Professional Full-Stack Web & Mobile Developer
+                        </h2>
+                        <p class="hero-description animate-fade-in-delay-3">
+                            Ready to transform your business with cutting-edge digital solutions? I specialize in
+                            creating
+                            <strong>high-converting websites</strong>, <strong>engaging mobile apps</strong>, and
+                            <strong>user-friendly interfaces</strong> that drive real results. From startups to
+                            enterprises,
+                            I help businesses scale with modern technologies like React, Node.js, and React Native.
+                        </p>
+
+                        <!-- Value Propositions -->
+                        <div class="value-props animate-fade-in-delay-4">
+                            <div class="value-prop">
+                                <i class="fas fa-dollar-sign"></i>
+                                <span>Increase Revenue</span>
+                            </div>
+                            <div class="value-prop">
+                                <i class="fas fa-users"></i>
+                                <span>Engage Users</span>
+                            </div>
+                            <div class="value-prop">
+                                <i class="fas fa-trophy"></i>
+                                <span>Beat Competition</span>
+                            </div>
+                        </div>
+
+                        <!-- Key Benefits -->
+                        <div class="hero-benefits animate-fade-in-delay-4">
+                            <div class="benefit-item">
+                                <i class="fas fa-rocket"></i>
+                                <span>Fast Delivery</span>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Secure Solutions</span>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Mobile-First</span>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-headset"></i>
+                                <span>24/7 Support</span>
+                            </div>
+                        </div>
+
+                        <div class="hero-buttons animate-fade-in-delay-5">
+                            <a href="#projects" class="btn btn-primary btn-lg me-3 mb-3">
+                                <i class="fas fa-eye me-2"></i>See My Work
+                            </a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg mb-3">
+                                <i class="fas fa-calendar-alt me-2"></i>Start Your Project
+                            </a>
+                        </div>
+
+                        <!-- Trust Indicators -->
+                        <div class="trust-indicators animate-fade-in-delay-6">
+                            <p class="trust-text">Trusted by clients worldwide</p>
+                            <div class="trust-stats">
+                                <div class="trust-stat">
+                                    <span class="stat-number">15+</span>
+                                    <span class="stat-label">Projects</span>
+                                </div>
+                                <div class="trust-stat">
+                                    <span class="stat-number">100%</span>
+                                    <span class="stat-label">Satisfaction</span>
+                                </div>
+                                <div class="trust-stat">
+                                    <span class="stat-number">24h</span>
+                                    <span class="stat-label">Response</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Quick Contact Form -->
+                        <div class="quick-contact animate-fade-in-delay-7">
+                            <div class="quick-contact-card">
+                                <h4 class="quick-contact-title">
+                                    <i class="fas fa-paper-plane me-2" aria-hidden="true"></i>
+                                    Get Your Free Quote in 24 Hours
+                                </h4>
+                                <form class="quick-contact-form" id="quickContactForm" novalidate>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="contactName" class="form-label visually-hidden">Your
+                                                Name</label>
+                                            <input type="text" class="form-control" id="contactName" name="name"
+                                                placeholder="Your Name" required aria-describedby="nameHelp">
+                                            <div class="invalid-feedback" id="nameError"></div>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="contactEmail" class="form-label visually-hidden">Email
+                                                Address</label>
+                                            <input type="email" class="form-control" id="contactEmail" name="email"
+                                                placeholder="Email Address" required aria-describedby="emailHelp">
+                                            <div class="invalid-feedback" id="emailError"></div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="contactService" class="form-label visually-hidden">Service
+                                            Type</label>
+                                        <select class="form-control" id="contactService" name="service" required>
+                                            <option value="">Select Service</option>
+                                            <option value="web-development">Web Development</option>
+                                            <option value="mobile-app">Mobile App Development</option>
+                                            <option value="ui-ux">UI/UX Design</option>
+                                            <option value="maintenance">Maintenance & Support</option>
+                                            <option value="consultation">Technical Consultation</option>
+                                        </select>
+                                        <div class="invalid-feedback" id="serviceError"></div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="contactMessage" class="form-label visually-hidden">Project
+                                            Description</label>
+                                        <textarea class="form-control" id="contactMessage" name="message" rows="3"
+                                            placeholder="Tell me about your project..." required></textarea>
+                                        <div class="invalid-feedback" id="messageError"></div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="contactConsent"
+                                                name="consent" required>
+                                            <label class="form-check-label" for="contactConsent">
+                                                I agree to the <a href="#" class="text-white">Privacy Policy</a> and
+                                                consent to being contacted
+                                            </label>
+                                            <div class="invalid-feedback" id="consentError"></div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-success btn-block" id="submitBtn">
+                                        <span class="btn-content">
+                                            <span class="btn-text">
+                                                <i class="fas fa-rocket me-2" aria-hidden="true"></i>Get Free Quote Now
+                                            </span>
+                                            <span class="btn-loading d-none">
+                                                <div class="loading-spinner">
+                                                    <div class="spinner-ring"></div>
+                                                    <div class="spinner-ring"></div>
+                                                    <div class="spinner-ring"></div>
+                                                </div>
+                                                <span class="loading-text">Sending your message...</span>
+                                            </span>
+                                        </span>
+                                        <div class="btn-progress d-none">
+                                            <div class="progress-bar">
+                                                <div class="progress-fill"></div>
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <div class="form-feedback mt-3" id="formFeedback"></div>
+                                    <p class="quick-contact-note">
+                                        <i class="fas fa-shield-alt me-1" aria-hidden="true"></i>
+                                        Your information is secure and will never be shared
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#services" class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
                 </a>
             </div>
         </div>
-    </div> <!-- end welcome page -->
-
-    <nav id="navB" class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <a class="navbar-brand" href="#">
-            <img id="logo" src="assets/images/r.png" width="45" height="45"> <b id="port"> Web Portfolio </b>
-        </a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div id="navbar-nav" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="#home"> Home </a>
-                </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link fadeOutUp" href="#projects"> Projects </a>
-                </li>
-                <li class="nav-item mx-3">
-                    <a id="logout-but fadeOutUp" class="nav-link" href="#about"> About </a>
-                </li>
-                <li class="nav-item mx-3">
-                    <a id="logout-but" class="nav-link" href="#contact"> Contact </a>
-                </li>
-            </ul>
-        </div> <!-- end navbar nav -->
-    </nav> <!-- end nav -->
-
-    <section class="container-fluid p-5" id="home">
-        <h1 class="text-center p-3"> My Services </h1>
-        <div class="row text-center">
-            <div class="col-12 col-md-3 col-lg-3 p-5">
-                <img class="mb-3" width="130" height="130" src="assets/images/design.png">
-                <p> WEB DEVELOPMENT </p>
-            </div>
-
-            <div class="col-12 col-md-3 col-lg-3 p-5">
-                <img class="mb-3" width="130" height="130" src="assets/images/mobile-app-development-icon.jpg">
-                <p> MOBILE APP DEVELOPMENT </p>
-            </div>
-
-            <div class="col-12 col-md-3 col-lg-3 p-5">
-                <img class="mb-3" width="130" height="130" src="assets/images/mobile.png">
-                <p> RESPONSIVE WEB DESIGN </p>
-            </div>
-
-            <div class="col-12 col-md-3 col-lg-3 p-5">
-                <img class="mb-3" width="130" height="130" src="assets/images/dev.png">
-                <p> MAINTENANCE & SUPPORT </p>
-            </div>
-
-        </div>
-    </section> <!-- end home -->
-
-    <section id="about" class="container-fluid bg-light p-5 mt-2">
-        <div class="row text-center p-4">
-            <div class="col-12 col-md-4 col-lg-3 mt-2">
-                <img id="img" class="img-fluid" src="assets/images/gradpic.jpg">
-                <a id="download" class="btn btn-block text-light mt-5" href="assets/docs/Rissel_Intod_Resume.pdf"
-                    type="download" download><i class="fas fa-download"></i>&nbsp Download Resume </a>
-            </div> <!-- left side -->
-            <div class="col-12 col-md-4 col-lg-3">
-                <h1 class="text-center p-4">About Me</h1>
-                <p class="text-justify">
-                Hi! I’m Rissel Intod, a Full-Stack Developer based in Manila with over 3 years of experience building clean, responsive, and user-friendly web and mobile applications. My sweet spot is Front-End and Mobile development, and I specialize in the MERN stack, ReactJS, and React Native — all within Agile teams.
-                <br><br>
-                I love transforming ideas into real solutions that make people’s lives easier. For example, I built and published customer and admin apps for AP Cargo, a leading logistics provider. In that project, I turned Figma designs into smooth, functional interfaces and worked closely with designers and stakeholders to deliver a great user experience.
-                <br><br>
-                I thrive on learning, teamwork, and solving problems — and I love taking projects from idea to live launch, including real-world publishing for iOS and Android. Right now, I’m open to Full-Stack, Front-End, or Mobile Developer roles — remote, hybrid, or onsite — where I can grow, contribute, and make a positive impact.
-                <br><br>
-                Let’s build something amazing together!
-            </p>
-
-            </div> <!-- right side -->
-            <div class="col-12 col-md-4 col-lg-6">
-                <div class="row text-center">
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/html.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/css.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/bootstrap.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/javascript.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/mongodb.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/express.png">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/reactjs.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/Node.js_logo.svg.png">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/gitlab.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/github.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/git.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/gitea.svg">
-                    </div>
-                    
-                    <!-- <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/php.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/laravel.svg">
-                    </div> -->
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/mysql.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/angularjs.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/jquery.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/postman-icon.svg">
-                    </div>
-                    <!-- <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/apache.svg">
-                    </div> -->
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/visualstudio.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/sublime.png">
-                    </div>
-                    
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/trello.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/fetch.jpg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/jira-1.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/heroku.svg">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/redux.png">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/aws.png">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/sdlc.png">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/Figma-logo.svg">
-                    </div>
-                 
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/chai.png">
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3 p-2 devicon">
-                        <img height="80" src="assets/images/xcode.png">
-                    </div>
-                </div>
-            </div>
-
-
-        </div> <!-- end of row -->
-    </section> <!-- end section 2 -->
-
-    <section id="projects" class="container py-3">
-        <div>
-            <h1 class="text-center p-5"> My Work </h1>
-            <div class="row mb-5">
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="card mt-4 text-center">
-                        <img id="caps" src="assets/images/rissel-skin-essentials-1.png">
-                        <div id="cap" class="card-body">
-                            <a target="_blank" href="https://risselintod.github.io/home-page-exam/" class="text-light">
-                                <button class="btn btn-outline-dark btn-block bg-dark text-light"> Rissel Skin Essentials </button>
-                            </a>
-                        </div>
-                    </div> <!-- end card -->
-                </div> <!-- end col -->
-
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="card mt-4 text-center">
-                        <img id="caps" src="assets/images/shoppable.png">
-                        <div id="cap" class="card-body">
-                            <a target="_blank" href="https://csp3-intod-monsalud-ys4k.vercel.app/" class="text-light">
-                                <button class="btn btn-outline-dark btn-block bg-dark text-light"> Shoppable </button>
-                            </a>
-                        </div>
-                    </div> <!-- end card -->
-                </div> <!-- end col -->
-
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="card mt-4 text-center">
-                        <img id="caps" src="assets/images/ticket-lakwatsero-2.png">
-                        <div id="cap" class="card-body">
-                            <a target="_blank" href="https://airline-ticketing-client.vercel.app/" class="text-light">
-                                <button class="btn btn-outline-dark btn-block bg-dark text-light"> Ticket Lakwatsero </button>
-                            </a>
-                        </div>
-                    </div> <!-- end card -->
-                </div> <!-- end col -->
-
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="card mt-4 text-center">
-                        <img id="caps" src="assets/images/madelicious.png">
-                        <div id="cap" class="card-body">
-                            <a target="_blank" href="https://risselintod.github.io/frettop/" class="text-light">
-                                <button class="btn btn-outline-dark btn-block bg-dark text-light"> Madelicios </button>
-                            </a>
-                        </div>
-                    </div> <!-- end card -->
-                </div> <!-- end col -->
-
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="card mt-4 text-center">
-                        <img id="caps" src="assets/images/book2GO.png">
-                        <div class="card-body">
-                            <a target="_blank" href="https://serene-stream-12989.herokuapp.com/" class="text-light">
-                                <button class="btn btn-outline-dark btn-block bg-dark text-light"> Book2GO </button>
-                            </a>
-                        </div>
-                    </div> 
-                </div> 
-
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="card mt-4 text-center">
-                        <img id="caps" src="assets/images/ur.png">
-                        <div class="card-body">
-                            <a target="_blank" href="https://serene-gorge-10128.herokuapp.com/" class="text-light">
-                                <button class="btn btn-outline-dark btn-block bg-dark text-light"> Fretcleaner </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div> <!-- end row -->
-            <div class="row like bg-secondary mt-4 p-4">
-                <div class="col-12 col-md-5 col-lg-5 text-center">
-                    <small>
-                        <h2> Like What You See? </h2>
-                        <p> Check out my resume to learn more. </p>
-                    </small>
-                </div>
-                <div class="col-12 col-md-3 col-lg-3 offset-sm-3 mt-3 text-center">
-                    <!-- <a class="text-light" target="_blank" href="assets/images/risselintod_resume.pdf"><button class="btn btn-block view text-light"> View Resume </button></a> -->
-                    <a class="text-light" target="_blank" href="assets/docs/Rissel_Intod_Resume.pdf"><button
-                            class="btn btn-block view text-light"> View Resume </button></a>
-                </div>
-            </div>
-        </div>
-    </section> <!-- end section 1 -->
-
-    <section class="container" id="contact">
-        <small>
-            <h1 class="text-center mt-5"> Contact Information </h1>
-            <hr>
-            <div class="row mt-5">
-                <div id="icon" class="p-3 mt-2 mb-5 col-12 col-md-3 col-lg-3 text-center">
-                    <i class="mb-3 fas fa-home"></i>
-                    <h6> LOCATION </h6>
-                    <p> Block 163 Lot 3 Sorongon St. Central Bicutan, Taguig City </p>
-                </div>
-                <div id="icon" class="p-3 mt-2 mb-5 col-12 col-md-3 col-lg-3 text-center">
-                    <i class="mb-3 fas fa-phone-square"></i>
-                    <h6> PHONE </h6>
-                    <p> (+63) 9755723855 <br> (+63) 9121741562 </p>
-
-                </div>
-                <div id="icon" class="p-3 mt-2 mb-5 col-12 col-md-3 col-lg-3 text-center">
-                    <i class="mb-3 fas fa-envelope"></i>
-                    <h6> EMAIL </h6>
-                    <p> rv.intod@gmail.com </p>
-                </div>
-                <div id="icon" class="p-3 mt-2 mb-5 col-12 col-md-3 col-lg-3 text-center">
-                    <i class="mb-3 fas fa-share-square"></i>
-                    <h6> SOCIAL MEDIA </h6>
-                    <h6>
-                        <a id="icon" target="_blank" href="https://www.facebook.com/risselTV">
-                            <i class="fab fa-facebook-square mx-1"></i>
-                        </a>
-                        <a id="icon" target="_blank" href="https://www.youtube.com/@engr_rissel">
-                            <i class="fab fa-youtube-square mx-1"></i>
-                        </a>
-                        <a id="icon" target="_blank" href="https://www.instagram.com/engr_rissel">
-                            <i class="fab fa-instagram mx-1"></i>
-                        </a>
-                        <!-- <a id="icon" target="_blank" href="https://www.linkedin.com/in/risselintod/">
-                            <i class="fab fa-linkedin-square mx-1"></i>
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a> -->
-                    </h6>
-                </div>
-            </div>
-        </small>
-        <div class="row">
-            <div class="col-12">
-
-            </div>
-        </div>
-
-        <!-- <div id="get" class="row border p-5 mb-5"> -->
-        <!-- <form action="./controller/mailer.php" method="POST"> -->
-        <!-- <div class="col-12 col-md-12 col-lg-12 mb-4"> -->
-        <!-- <h2 class="text-center"> Get in Touch </h2> -->
-        <!-- </div> -->
-        <!-- <div class="col-12 col-md-6 col-lg-6 p-2"> -->
-        <!-- <input type="text" name="name" id="name" class="form-control" placeholder="Enter your fullname * "> -->
-        <!-- </div> -->
-        <!-- <div class="col-12 col-md-6 col-lg-6 p-2"> -->
-        <!-- <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email address * "> -->
-        <!-- </div> -->
-        <!-- <div class="col-12 col-md-12 col-lg-12"> -->
-        <!-- <textarea type="text" name="message" id="message" class="form-control mt-3" rows="10" placeholder="Your Message *"></textarea> -->
-        <!-- </div> -->
-        <!-- <div class="col-12 col-md-3 col-lg-3 offset-lg-9"> -->
-        <!-- <button type="submit" id="send" class="btn btn-block mt-3 text-light"> Send Message </button> -->
-        <!-- </div> -->
-        <!-- </form> -->
-        <!-- </div> -->
     </section>
 
-    <footer class="footer bg-secondary text-dark">
-        <small>
-            <p class="text-center p-3 mb-0"> <b>Rissel &nbspIntod</b> &copy; 2025. &nbsp All rights reserved </p>
-        </small>
-    </footer> <!-- end footer -->
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Passionate developer with 3+ years of experience</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center mb-4">
+                    <div class="profile-image-container">
+                        <img src="assets/images/gradpic.jpg" alt="Rissel Intod" class="profile-image">
+                        <div class="profile-overlay">
+                            <a href="assets/docs/Rissel_Intod_Resume.pdf" target="_blank" class="btn btn-primary">
+                                <i class="fas fa-download me-2"></i>Download Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="about-content">
+                        <h3 class="mb-4">Full-Stack Developer Based in Manila</h3>
+                        <p class="mb-3">
+                            Hi! I'm Rissel Intod, a Full-Stack Developer with over 3 years of experience building
+                            clean, responsive, and user-friendly web and mobile applications. My sweet spot is
+                            Front-End and Mobile development, and I specialize in the MERN stack, ReactJS, and React
+                            Native.
+                        </p>
+                        <p class="mb-3">
+                            I love transforming ideas into real solutions that make people's lives easier. For example,
+                            I built and published customer and admin apps for AP Cargo, a leading logistics provider.
+                            In that project, I turned Figma designs into smooth, functional interfaces and worked
+                            closely
+                            with designers and stakeholders to deliver a great user experience.
+                        </p>
+                        <p class="mb-4">
+                            I thrive on learning, teamwork, and solving problems — and I love taking projects from idea
+                            to live launch, including real-world publishing for iOS and Android. Right now, I'm open to
+                            Full-Stack, Front-End, or Mobile Developer roles where I can grow, contribute, and make a
+                            positive impact.
+                        </p>
+                        <div class="stats-row">
+                            <div class="stat-item">
+                                <h4 class="stat-number">3+</h4>
+                                <p class="stat-label">Years Experience</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4 class="stat-number">15+</h4>
+                                <p class="stat-label">Projects Completed</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4 class="stat-number">10+</h4>
+                                <p class="stat-label">Technologies</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Why Choose My Services?</h2>
+                    <p class="section-subtitle">Professional solutions that drive your business forward</p>
+                </div>
+            </div>
 
+            <!-- Main Services Grid -->
+            <div class="row mb-5">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card premium h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="service-badge">Most Popular</div>
+                        <h4 class="service-title">Web Development</h4>
+                        <p class="service-description">
+                            Create stunning, high-performance websites that convert visitors into customers.
+                            From simple landing pages to complex web applications.
+                        </p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Responsive Design</li>
+                            <li><i class="fas fa-check"></i> SEO Optimized</li>
+                            <li><i class="fas fa-check"></i> Fast Loading</li>
+                            <li><i class="fas fa-check"></i> Cross-Browser Compatible</li>
+                        </ul>
+                        <!-- Pricing Tiers -->
+                        <div class="pricing-tiers">
+                            <div class="pricing-tier">
+                                <div class="tier-header">
+                                    <h5 class="tier-name">Starter</h5>
+                                    <div class="tier-price">
+                                        <span class="price-currency">$</span>
+                                        <span class="price-value">800</span>
+                                        <span class="price-period">+</span>
+                                    </div>
+                                </div>
+                                <ul class="tier-features">
+                                    <li><i class="fas fa-check"></i> Up to 5 pages</li>
+                                    <li><i class="fas fa-check"></i> Responsive design</li>
+                                    <li><i class="fas fa-check"></i> Basic SEO</li>
+                                    <li><i class="fas fa-check"></i> Contact form</li>
+                                </ul>
+                                <button class="btn btn-outline-primary btn-sm w-100">Get Quote</button>
+                            </div>
 
+                            <div class="pricing-tier featured">
+                                <div class="tier-badge">Most Popular</div>
+                                <div class="tier-header">
+                                    <h5 class="tier-name">Business</h5>
+                                    <div class="tier-price">
+                                        <span class="price-currency">$</span>
+                                        <span class="price-value">1,200</span>
+                                        <span class="price-period">+</span>
+                                    </div>
+                                </div>
+                                <ul class="tier-features">
+                                    <li><i class="fas fa-check"></i> Up to 10 pages</li>
+                                    <li><i class="fas fa-check"></i> Advanced SEO</li>
+                                    <li><i class="fas fa-check"></i> CMS integration</li>
+                                    <li><i class="fas fa-check"></i> Analytics setup</li>
+                                    <li><i class="fas fa-check"></i> 30-day support</li>
+                                </ul>
+                                <button class="btn btn-primary btn-sm w-100">Get Quote</button>
+                            </div>
 
+                            <div class="pricing-tier">
+                                <div class="tier-header">
+                                    <h5 class="tier-name">Premium</h5>
+                                    <div class="tier-price">
+                                        <span class="price-currency">$</span>
+                                        <span class="price-value">2,000</span>
+                                        <span class="price-period">+</span>
+                                    </div>
+                                </div>
+                                <ul class="tier-features">
+                                    <li><i class="fas fa-check"></i> Unlimited pages</li>
+                                    <li><i class="fas fa-check"></i> Custom functionality</li>
+                                    <li><i class="fas fa-check"></i> E-commerce ready</li>
+                                    <li><i class="fas fa-check"></i> Performance optimization</li>
+                                    <li><i class="fas fa-check"></i> 90-day support</li>
+                                </ul>
+                                <button class="btn btn-outline-primary btn-sm w-100">Get Quote</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4 class="service-title">Mobile App Development</h4>
+                        <p class="service-description">
+                            Build native and cross-platform mobile apps that engage users and drive business growth.
+                            Available for iOS and Android.
+                        </p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> iOS & Android</li>
+                            <li><i class="fas fa-check"></i> React Native</li>
+                            <li><i class="fas fa-check"></i> App Store Ready</li>
+                            <li><i class="fas fa-check"></i> Push Notifications</li>
+                        </ul>
+                        <div class="service-price">
+                            <span class="price-from">Starting from</span>
+                            <span class="price-amount">$800</span>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h4 class="service-title">UI/UX Design</h4>
+                        <p class="service-description">
+                            Design beautiful, intuitive user interfaces that provide exceptional user experiences
+                            and increase conversion rates.
+                        </p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> User Research</li>
+                            <li><i class="fas fa-check"></i> Wireframing</li>
+                            <li><i class="fas fa-check"></i> Prototyping</li>
+                            <li><i class="fas fa-check"></i> Design Systems</li>
+                        </ul>
+                        <div class="service-price">
+                            <span class="price-from">Starting from</span>
+                            <span class="price-amount">$300</span>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h4 class="service-title">Maintenance & Support</h4>
+                        <p class="service-description">
+                            Keep your applications running smoothly with regular updates, security patches,
+                            and 24/7 technical support.
+                        </p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> 24/7 Support</li>
+                            <li><i class="fas fa-check"></i> Regular Updates</li>
+                            <li><i class="fas fa-check"></i> Security Monitoring</li>
+                            <li><i class="fas fa-check"></i> Performance Optimization</li>
+                        </ul>
+                        <div class="service-price">
+                            <span class="price-from">Starting from</span>
+                            <span class="price-amount">$150/mo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Process Section -->
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h3 class="process-title">My Proven Process</h3>
+                    <p class="process-subtitle">How I deliver exceptional results every time</p>
+                </div>
+            </div>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="process-step">
+                        <div class="process-number">1</div>
+                        <h5 class="process-step-title">Discovery & Planning</h5>
+                        <p class="process-step-description">
+                            Understanding your business goals, target audience, and project requirements.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="process-step">
+                        <div class="process-number">2</div>
+                        <h5 class="process-step-title">Design & Prototyping</h5>
+                        <p class="process-step-description">
+                            Creating wireframes, mockups, and interactive prototypes for your approval.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="process-step">
+                        <div class="process-number">3</div>
+                        <h5 class="process-step-title">Development & Testing</h5>
+                        <p class="process-step-description">
+                            Building your solution with clean code, thorough testing, and regular updates.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="process-step">
+                        <div class="process-number">4</div>
+                        <h5 class="process-step-title">Launch & Support</h5>
+                        <p class="process-step-description">
+                            Deploying your project and providing ongoing support and maintenance.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+            <!-- CTA Section -->
+            <div class="row mt-5">
+                <div class="col-lg-12 text-center">
+                    <div class="services-cta">
+                        <h3 class="cta-title">Ready to Start Your Project?</h3>
+                        <p class="cta-description">
+                            Let's discuss your requirements and create something amazing together.
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="#contact" class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-rocket me-2"></i>Get Free Quote
+                            </a>
+                            <a href="#projects" class="btn btn-outline-primary btn-lg">
+                                <i class="fas fa-eye me-2"></i>View Portfolio
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Client Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">What Clients Say</h2>
+                    <p class="section-subtitle">Real feedback from satisfied customers</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                "Rissel delivered our mobile app on time and exceeded our expectations.
+                                The user experience is flawless and our customers love it!"
+                            </p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h5 class="author-name">Sarah Johnson</h5>
+                                <p class="author-title">CEO, TechStart Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                "Professional, responsive, and incredibly talented. Rissel transformed our
+                                website and increased our conversion rate by 40%!"
+                            </p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h5 class="author-name">Michael Chen</h5>
+                                <p class="author-title">Founder, E-commerce Plus</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                "Outstanding work! Rissel's attention to detail and technical expertise
+                                made our project a huge success. Highly recommended!"
+                            </p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h5 class="author-name">Emily Rodriguez</h5>
+                                <p class="author-title">Marketing Director, Creative Agency</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Success Metrics -->
+            <div class="row mt-5">
+                <div class="col-lg-12 text-center mb-4">
+                    <h3 class="success-title">Proven Results</h3>
+                    <p class="success-subtitle">Numbers that speak for themselves</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="success-metric">
+                        <div class="metric-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4 class="metric-number">40%</h4>
+                        <p class="metric-label">Average Increase in Conversion Rate</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="success-metric">
+                        <div class="metric-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4 class="metric-number">2-4</h4>
+                        <p class="metric-label">Weeks Average Delivery Time</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="success-metric">
+                        <div class="metric-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4 class="metric-number">50+</h4>
+                        <p class="metric-label">Happy Clients Worldwide</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="success-metric">
+                        <div class="metric-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4 class="metric-number">25+</h4>
+                        <p class="metric-label">Mobile Apps Published</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <p class="section-subtitle">Technologies and tools I work with</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <h4 class="skill-category-title">
+                            <i class="fas fa-code me-2"></i>Frontend
+                        </h4>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <img src="assets/images/html.svg" alt="HTML" class="skill-icon">
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/images/css.svg" alt="CSS" class="skill-icon">
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/images/javascript.svg" alt="JavaScript" class="skill-icon">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/images/reactjs.svg" alt="React" class="skill-icon">
+                                <span>ReactJS</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/images/bootstrap.svg" alt="Bootstrap" class="skill-icon">
+                                <span>Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <h4 class="skill-category-title">
+                            <i class="fas fa-server me-2"></i>Backend
+                        </h4>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <img src="assets/images/Node.js_logo.svg.png" alt="Node.js" class="skill-icon">
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/images/express.png" alt="Express" class="skill-icon">
+                                <span>Express.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/images/mongodb.svg" alt="MongoDB" class="skill-icon">
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/images/mysql.svg" alt="MySQL" class="skill-icon">
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="skill-category">
+                        <h4 class="skill-category-title">
+                            <i class="fas fa-tools me-2"></i>Tools & Others
+                        </h4>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <img src="assets/images/git.svg" alt="Git" class="skill-icon">
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/images/github.svg" alt="GitHub" class="skill-icon">
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/images/Figma-logo.svg" alt="Figma" class="skill-icon">
+                                <span>Figma</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/images/aws.png" alt="AWS" class="skill-icon">
+                                <span>AWS</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="assets/images/heroku.svg" alt="Heroku" class="skill-icon">
+                                <span>Heroku</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Some of my recent work</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/rissel-skin-essentials-1.png" alt="Rissel Skin Essentials"
+                                class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://risselintod.github.io/home-page-exam/" target="_blank"
+                                        class="btn btn-primary">
+                                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4 class="project-title">Rissel Skin Essentials</h4>
+                            <p class="project-description">
+                                E-commerce website for skin care products with modern design and responsive layout.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/shoppable.png" alt="Shoppable" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://csp3-intod-monsalud-ys4k.vercel.app/" target="_blank"
+                                        class="btn btn-primary">
+                                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4 class="project-title">Shoppable</h4>
+                            <p class="project-description">
+                                Full-stack e-commerce platform with user authentication and shopping cart functionality.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/ticket-lakwatsero-2.png" alt="Ticket Lakwatsero" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://airline-ticketing-client.vercel.app/" target="_blank"
+                                        class="btn btn-primary">
+                                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4 class="project-title">Ticket Lakwatsero</h4>
+                            <p class="project-description">
+                                Airline ticketing system with booking functionality and admin dashboard.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/madelicious.png" alt="Madelicios" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://risselintod.github.io/frettop/" target="_blank"
+                                        class="btn btn-primary">
+                                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4 class="project-title">Madelicios</h4>
+                            <p class="project-description">
+                                Restaurant website with menu showcase and online ordering system.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/book2GO.png" alt="Book2GO" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://serene-stream-12989.herokuapp.com/" target="_blank"
+                                        class="btn btn-primary">
+                                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4 class="project-title">Book2GO</h4>
+                            <p class="project-description">
+                                Book management system with search and categorization features.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/ur.png" alt="Fretcleaner" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://serene-gorge-10128.herokuapp.com/" target="_blank"
+                                        class="btn btn-primary">
+                                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4 class="project-title">Fretcleaner</h4>
+                            <p class="project-description">
+                                Cleaning service booking platform with scheduling and payment integration.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Let's work together on your next project</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-info-grid">
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h5>Location</h5>
+                            <p>Block 163 Lot 3 Sorongon St.<br>Central Bicutan, Taguig City</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h5>Phone</h5>
+                            <p>(+63) 9755723855<br>(+63) 9121741562</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h5>Email</h5>
+                            <p>rv.intod@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links text-center mt-5">
+                        <h5 class="mb-4">Follow Me</h5>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/risselTV" target="_blank" class="social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@engr_rissel" target="_blank" class="social-icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="https://www.instagram.com/engr_rissel" target="_blank" class="social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://github.com/risselintod" target="_blank" class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/risselintod/" target="_blank" class="social-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Rissel Intod. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">Built with <i class="fas fa-heart text-danger"></i> and modern web technologies</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="index.js"></script>
 </body>
 
 </html>

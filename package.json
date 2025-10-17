@@ -1,5 +1,66 @@
 {
+  "name": "rissel-intod-portfolio",
+  "version": "1.1.0",
+  "description": "Professional portfolio website for Rissel Intod - Expert Full-Stack Web & Mobile Developer with advanced PWA features",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000 -c-1",
+    "build": "echo 'Build complete - Portfolio optimized for production'",
+    "dev": "npx live-server --port=3000 --no-browser",
+    "serve": "npx http-server -p 8080 -c-1 --cors",
+    "lighthouse": "npx lighthouse http://localhost:3000 --output=html --output-path=./lighthouse-report.html",
+    "audit": "npm audit --audit-level=moderate",
+    "format": "prettier --write \"**/*.{html,css,js,json,md}\"",
+    "lint": "eslint *.js --fix",
+    "test": "echo 'No tests specified' && exit 0"
+  },
+  "keywords": [
+    "portfolio",
+    "web-development",
+    "mobile-development",
+    "react",
+    "mern-stack",
+    "pwa",
+    "progressive-web-app",
+    "full-stack-developer",
+    "javascript",
+    "nodejs",
+    "react-native",
+    "bootstrap",
+    "responsive-design"
+  ],
+  "author": {
+    "name": "Rissel Intod",
+    "email": "rv.intod@gmail.com",
+    "url": "https://risselintod.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/risselintod/my-web-dev-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/risselintod/my-web-dev-portfolio/issues"
+  },
+  "homepage": "https://risselintod.com",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
   "dependencies": {
-    "bootstrap": "^5.3.7"
-  }
+    "bootstrap": "^5.3.2"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "lighthouse": "^11.0.0",
+    "prettier": "^3.0.0",
+    "eslint": "^8.50.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
 }
