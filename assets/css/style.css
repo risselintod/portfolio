@@ -1260,9 +1260,12 @@ section {
 /* ===== CONTACT SECTION ===== */
 .contact-info-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-template-columns: repeat(3, 1fr);
 	gap: 2rem;
 	margin-bottom: 3rem;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .contact-info-item {
@@ -1282,7 +1285,7 @@ section {
 .contact-icon {
 	width: 60px;
 	height: 60px;
-	background: var(--primary-color);
+	background: #e91e63 !important;
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
@@ -1290,6 +1293,11 @@ section {
 	margin: 0 auto 1rem;
 	color: white;
 	font-size: 1.5rem;
+}
+
+/* More specific selector to ensure pink color is applied */
+.contact-info-item .contact-icon {
+	background: #e91e63 !important;
 }
 
 .contact-info-item h5 {
@@ -1456,6 +1464,7 @@ section {
 	.contact-info-grid {
 		grid-template-columns: 1fr;
 		gap: 1rem;
+		max-width: 100%;
 	}
 
 	.social-icons {
@@ -1483,6 +1492,7 @@ section {
 
 	.contact-info-grid {
 		grid-template-columns: repeat(2, 1fr);
+		max-width: 100%;
 	}
 }
 
@@ -1498,6 +1508,7 @@ section {
 
 	.contact-info-grid {
 		grid-template-columns: repeat(3, 1fr);
+		max-width: 100%;
 	}
 }
 
